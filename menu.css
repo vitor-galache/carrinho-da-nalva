@@ -24,15 +24,30 @@ body {
     padding: 20px;
 }
 
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('imgs/cardapio-fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
 header {
     text-align: center;
     margin-bottom: 20px;
 }
 
 h1 {
-    color:#3C5F95;
+    color:white;
     font-family: 'Permanent Marker',sans-serif;
     font-size: 4rem;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #ffffff;
+    border-radius: 50%; /* Linha ondulada preta abaixo do título */
 }
 
 .menu-section {
@@ -41,18 +56,19 @@ h1 {
 
 h2{
     font-family: 'Permanent Marker',sans-serif;
-    font-size: 1.8em;
+    font-size: 2em;
     color: cadetblue;
 }
 
 h3 {
+    color: #e3c3a5;
     font-family: 'Permanent Marker',sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .category h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 20px;
 }
 
@@ -62,15 +78,27 @@ ul {
 }
 
 li {
+    color: white;
     font-family: 'Passion One',sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
+    text-shadow: 
+        -1px -1px 0 #000, /* sombra à esquerda e acima */
+        1px -1px 0 #000,  /* sombra à direita e acima */
+        -1px 1px 0 #000,  /* sombra à esquerda e abaixo */
+        1px 1px 0 #000; 
 }
 
 .price {
+    color: white; /* Cor do texto principal */
+    text-shadow: 
+        -1px -1px 0 #000, /* sombra à esquerda e acima */
+        1px -1px 0 #000,  /* sombra à direita e acima */
+        -1px 1px 0 #000,  /* sombra à esquerda e abaixo */
+        1px 1px 0 #000; 
     font-weight: bold;
 }
 
