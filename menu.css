@@ -103,11 +103,12 @@ li {
 }
 
 button {
+    font-family: 'Passion One',sans-serif;
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: #333;
     border: none;
     border-radius: 5px;
     cursor: pointer;
