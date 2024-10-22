@@ -115,6 +115,18 @@ button {
     font-size: 1rem;
     transition: background-color 0.3s ease;
 }
+p{
+    font-family: 'Passion One',sans-serif;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000, /* sombra à esquerda e acima */
+        1px -1px 0 #000,  /* sombra à direita e acima */
+        -1px 1px 0 #000,  /* sombra à esquerda e abaixo */
+        1px 1px 0 #000;
+        margin-top: 10px;
+        
+
+}
 
 button:hover {
     background-color: #555;
