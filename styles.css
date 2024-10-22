@@ -54,13 +54,12 @@ h1 {
 
 button {
     font-family: 'Passion One',sans-serif;
-    
     padding: 15px 30px;
     font-size: 1.2rem;
     background-color: rgba(255, 255, 255, 0.8);
     border: none;
     color: #333;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     text-align: center;
