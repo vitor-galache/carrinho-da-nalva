@@ -123,13 +123,21 @@ p{
         1px -1px 0 #000,  /* sombra à direita e acima */
         -1px 1px 0 #000,  /* sombra à esquerda e abaixo */
         1px 1px 0 #000;
-        margin-top: 10px;
-        
-
+        margin-top: 10px;     
 }
 
 button:hover {
     background-color: #555;
+}
+
+.observacoes > h3{
+    color: black;
+}
+
+.observacoes{
+    opacity: 80%;
+    padding: 03%;
+    background-color: white;
 }
 
 @media (max-width: 768px) {
