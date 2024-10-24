@@ -49,7 +49,11 @@ h1 {
     font-family: 'Permanent Marker',sans-serif;
     margin-top: 40px;
     font-size: 2rem;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-shadow: 
+        -1px -1px 0 #ffffff, /* sombra à esquerda e acima */
+        1px -1px 0 #ffffff,  /* sombra à direita e acima */
+        -1px 1px 0 #ffffff,  /* sombra à esquerda e abaixo */
+        1px 1px 0 #ffffff; 
 }
 
 button {

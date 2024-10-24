@@ -42,12 +42,17 @@ header {
 }
 
 h1 {
-    color:white;
+    color:#3C5F95;
     font-family: 'Permanent Marker',sans-serif;
     font-size: 4rem;
     margin-bottom: 10px;
     border-bottom: 3px solid #ffffff;
-    border-radius: 50%; /* Linha ondulada preta abaixo do título */
+    border-radius: 50%; 
+    text-shadow: 
+    -1px -1px 0 #ffffff, /* sombra à esquerda e acima */
+    1px -1px 0 #ffffff,  /* sombra à direita e acima */
+    -1px 1px 0 #ffffff,  /* sombra à esquerda e abaixo */
+    1px 1px 0 #ffffff; 
 }
 
 .menu-section {
