@@ -29,7 +29,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../imgs/fundo.png');
+    background-image: url('../imgs/no_mark.png');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -45,9 +45,9 @@ body, html {
 }
 
 h1 {
-    color:#3C5F95;
+    color:#000000;
     font-family: 'Permanent Marker',sans-serif;
-    margin-top: 40px;
+    margin-top: 65%;
     font-size: 2rem;
     text-shadow: 
         -1px -1px 0 #ffffff, /* sombra à esquerda e acima */
@@ -68,7 +68,8 @@ button {
     transition: background-color 0.3s ease, transform 0.3s ease;
     text-align: center;
     position: absolute;
-    top: 400px;
+    top: 310px;
+    width: 50vw;
     
 }
 
