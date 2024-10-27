@@ -131,6 +131,14 @@ p{
         margin-top: 10px;     
 }
 
+li.sanduiche{
+border-bottom: none;
+}
+
+.paragrafo-sanduiche{
+    border-bottom: 1px solid #ccc;
+}
+
 button:hover {
     background-color: #555;
 }
