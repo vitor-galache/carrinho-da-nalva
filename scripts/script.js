@@ -9,3 +9,7 @@ document.getElementById('verCardapio').addEventListener('click', function () {
         window.location.href = 'menu.html'; // Substituir pela URL do cardápio
     }, 410); // Tempo igual ao da animação no CSS
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.home').classList.remove('slide-up');
+});

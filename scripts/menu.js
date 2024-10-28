@@ -1,5 +1,5 @@
 document.getElementById('btn-voltar').addEventListener('click', function () {
-    window.location.href = 'index.html'; // Substitua pela URL da página inicial
+    window.location.href = 'https://vitor-galache.github.io/carrinho-da-nalva/'; // Substitua pela URL da página inicial
 });
 
 const categories = document.querySelectorAll('.category-title');
