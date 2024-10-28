@@ -60,7 +60,7 @@ h1 {
 }
 
 h2{
-    font-family: 'Permanent Marker',sans-serif;
+    font-family: 'Righteous',sans-serif;
     font-size: 2em;
     color: rgb(255, 255, 255);
     text-shadow: 
@@ -73,7 +73,7 @@ h2{
 
 h3 {
     color: #e3c3a5;
-    font-family: 'Permanent Marker',sans-serif;
+    font-family: 'Righteous',sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -114,7 +114,7 @@ li {
 }
 
 button {
-    font-family: 'Passion One',sans-serif;
+    font-family: 'Righteous',sans-serif;
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
@@ -146,14 +146,16 @@ border-bottom: none;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #ebebeb;
 }
 
 .observacoes > h3{
     color: black;
 }
 
+
 .observacoes{
+    font-family: 'Righteous',sans-serif;
     opacity: 80%;
     padding: 03%;
     background-color: white;
