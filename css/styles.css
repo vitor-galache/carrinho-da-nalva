@@ -14,7 +14,16 @@ body, html {
     overflow: hidden;
 }
 
+body,.home{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 .home {
+    background-image: url('../imgs/no_mark.png');
+    background-size: cover;
+    background-position: center;
     position: relative;
     height: 100%;
     display: flex;
@@ -23,17 +32,6 @@ body, html {
     transition: transform 0.5s ease-in-out;
 }
 
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../imgs/no_mark.png');
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-}
 
 .content {
     text-align: center;
@@ -68,9 +66,8 @@ button {
     transition: background-color 0.3s ease, transform 0.3s ease;
     text-align: center;
     position: absolute;
-    top: 310px;
+    top: 35vh;
     width: 50vw;
-    
 }
 
 
