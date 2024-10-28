@@ -1,6 +1,9 @@
 document.getElementById('btn-voltar').addEventListener('click', function () {
-    window.location.reload(); 
-    window.location.href = 'index.html';
+    if (window.location.pathname.includes('index.html')) {
+        window.location.reload(); // Recarrega apenas se já estiver na página index
+    } else {
+        window.location.href = 'index.html'; // Redireciona para index se estiver em outra página
+    }
 });
 
 const categories = document.querySelectorAll('.category-title');
