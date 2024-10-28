@@ -43,7 +43,7 @@ header {
 
 h1 {
     color:#3C5F95;
-    font-family: 'Permanent Marker',sans-serif;
+    font-family: 'DynaPuff',sans-serif;
     font-size: 4rem;
     margin-bottom: 10px;
     border-bottom: 3px solid #ffffff;
@@ -62,7 +62,13 @@ h1 {
 h2{
     font-family: 'Permanent Marker',sans-serif;
     font-size: 2em;
-    color: cadetblue;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -1px -1px 0 #000000, /* sombra à esquerda e acima */
+    1px -1px 0 #000000,  /* sombra à direita e acima */
+    -1px 1px 0 #000000,  /* sombra à esquerda e abaixo */
+    1px 1px 0 #000000;
+    margin-top: 10%;
 }
 
 h3 {
@@ -152,6 +158,31 @@ button:hover {
     padding: 03%;
     background-color: white;
 }
+
+.products{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+.category-title{
+    
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+}
+.category-title::after{
+    content: "▼"; /* Símbolo de seta para baixo */
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    transition: transform 0.3s ease; /* Para rotação suave */
+}
+.category-title.expanded::after {
+    transform: rotate(180deg); /* Roda a seta quando a categoria está expandida */
+}
+
+
+
 
 @media (max-width: 768px) {
     h1 {
