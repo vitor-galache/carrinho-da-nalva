@@ -12,6 +12,16 @@ categories.forEach(title => {
     title.addEventListener('click', () => {
         const products = title.nextElementSibling;
 
+        // Fecha todas as outras seções de produtos
+        categories.forEach(otherTitle => {
+            if (otherTitle !== title) {
+                const otherProducts = otherTitle.nextElementSibling;
+                otherProducts.style.maxHeight = null;
+                otherTitle.classList.remove('expanded');
+            }
+        });
+
+        // Alterna a visibilidade da seção atual
         if (products.style.maxHeight) {
             products.style.maxHeight = null; // Recolhe
             title.classList.remove('expanded'); // Remove classe quando colapsado
