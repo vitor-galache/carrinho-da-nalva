@@ -13,3 +13,9 @@ document.getElementById('verCardapio').addEventListener('click', function () {
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.home').classList.remove('slide-up');
 });
+
+window.addEventListener('pageshow', function (event) {
+    if (event.persisted) { // Detecta se a página foi carregada do cache
+        document.querySelector('.home').classList.remove('slide-up');
+    }
+});
