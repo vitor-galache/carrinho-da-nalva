@@ -141,6 +141,13 @@ li.sanduiche{
 border-bottom: none;
 }
 
+
+.combo{
+    border: 2px white solid;
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 5%;
+}
+
 .paragrafo-sanduiche{
     border-bottom: 1px solid #ccc;
 }
