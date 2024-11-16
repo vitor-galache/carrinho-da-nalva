@@ -193,8 +193,21 @@ button:hover {
     transform: rotate(180deg); /* Roda a seta quando a categoria está expandida */
 }
 
+a{
+    text-decoration: none;
+    color: #72b464;
+}
 
+.whatsapp-contact {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Ajuste o espaço entre o ícone e o texto conforme necessário */
+}
 
+.whatsapp-icon {
+    width: 40px; /* Defina o tamanho do ícone */
+    height: 40px;
+}
 
 @media (max-width: 768px) {
     h1 {
